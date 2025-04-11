@@ -11,7 +11,7 @@ import img6 from '../assets/products/6.jpg'
 const ProductList = () => {
   const [products, setProducts] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const itemsPerPage = 3;
+  const itemsPerPage = 4;
 
   const handlePrev = () => {
     if (currentIndex > 0) {
