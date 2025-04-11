@@ -29,7 +29,7 @@ const ProductList = () => {
     setTimeout(() => {
       setProducts([
         { id: 1, name: "Acetaminophen Pills", oldPrice: 18, price: 12, image: img1 },
-        { id: 2, name: "Throat Lozenges Syrup", oldPrice: 18, price: 12, image: img2 },
+        { id: 2, name: "Throat Syrup", oldPrice: 18, price: 12, image: img2 },
         { id: 3, name: "Multivitamin B6+", oldPrice: 18, price: 12, image: img3 },
         { id: 4, name: "Vitamin C Tablets", oldPrice: 20, price: 15, image: img4 },
         { id: 5, name: "Cough Syrup", oldPrice: 18, price: 14, image: img5 },
